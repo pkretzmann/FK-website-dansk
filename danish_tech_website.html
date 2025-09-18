@@ -247,6 +247,29 @@
             margin: 0 auto;
         }
 
+        /* Intro Section */
+        .intro-section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .intro-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .intro-text p {
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+        }
+
+        .intro-text p:last-child {
+            margin-bottom: 0;
+        }
+
         .section-title {
             text-align: center;
             margin-bottom: 3rem;
@@ -669,7 +692,6 @@
             <ul class="nav-links">
                 <li><a href="#hjem">Hjem</a></li>
                 <li><a href="#tjenester">Tjenester</a></li>
-                <li><a href="#om">Om os</a></li>
                 <li><a href="#team">Hvem er vi</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
@@ -680,7 +702,16 @@
         <div class="hero-content">
             <h1>Business Central eksperter</h1>
             <p>Specialiserede Microsoft Dynamics 365 Business Central løsninger til lager- og produktionsoptimering. Transformer dine operationer med ekspert implementering og DocReader integration.</p>
-            <a href="#kontakt" class="cta-button">Få ekspert rådgivning</a>
+            <a href="#kontakt" class="cta-button">Få ekspertrådgivning</a>
+        </div>
+    </section>
+
+    <section id="intro" class="intro-section">
+        <div class="intro-content fade-in">
+            <div class="intro-text">
+                <p>Vi er Microsoft Dynamics 365 Business Central specialister med dyb ekspertise inden for finans, lagerstyring og produktionsoptimering.</p>
+                <p>Vi leverer omfattende løsninger, der strømliner dine operationer, forbedrer lagerpræcision og øger produktionseffektivitet.</p>
+            </div>            
         </div>
     </section>
 
@@ -701,9 +732,14 @@
                 <p>Avancerede produktionsløsninger i Business Central med produktionsordrer, kapacitetsplanlægning og realtids shopfloor kontrol.</p>
             </div>
             <div class="service-card fade-in">
+                <div class="service-icon">🏢</div>
+                <h3>Anlægsaktiver</h3>
+                <p>Komplet styring af anlægsaktiver i Business Central med afskrivningsberegninger, vedligeholdelsesplaner og aktivsporing for optimal økonomisk kontrol.</p>
+            </div>
+            <div class="service-card fade-in">
                 <div class="service-icon">📄</div>
-                <h3>DocReader Integration</h3>
-                <p>Sømløs DocReader fra Zapodio integration til automatiseret dokumentbehandling og datafangst inden for Business Central workflows.</p>
+                <h3>Fakturaskanning med DocReader</h3>
+                <p>Lad DocReader fra <a href="https://www.zapodio.com" target="_blank" style="color: #2a5f6f; text-decoration: underline;">Zapodio</a> læse dine fakturaer automatisk og automatiser behandlingen af alle dine indgående bilag direkte i Business Central.</p>
             </div>
             <div class="service-card fade-in">
                 <div class="service-icon">⚙️</div>
@@ -711,13 +747,8 @@
                 <p>Fuld Microsoft Dynamics 365 Business Central implementering med tilpassede konfigurationer til dine lager- og produktionsbehov.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">📊</div>
-                <h3>Business Intelligence</h3>
-                <p>Avanceret rapportering og analyser i Business Central med Power BI integration til realtids lager- og produktionsindsigt.</p>
-            </div>
-            <div class="service-card fade-in">
                 <div class="service-icon">🔧</div>
-                <h3>Support & Træning</h3>
+                <h3>Support og træning</h3>
                 <p>Løbende Business Central support, brugertræning og systemoptimering for at sikre maksimalt afkast af din investering.</p>
             </div>
         </div>
@@ -726,7 +757,7 @@
     <section id="team">
         <div class="section-title fade-in">
             <h2>Hvem er vi</h2>
-            <p>Mød vores Business Central eksperter dedikeret til at transformere dine operationer</p>
+            <p>Mød vores erfarne Business Central eksperter og dedikerede samarbejdspartnere, der arbejder tæt sammen med dig for at sikre projektets succes</p>
         </div>
         <div class="team-grid">
             <div class="team-member fade-in">
@@ -734,23 +765,26 @@
                     <!-- Erstat med rigtig foto: <img src="konsulent1.jpg" alt="Senior BC Konsulent"> -->
                     👨‍💼
                 </div>
-                <h3 class="team-name">John Anderson</h3>
-                <div class="team-title">Senior Business Central Konsulent</div>
+                <h3 class="team-name">Jan Fich</h3>
+                <div class="team-title">Senior Business Central Konsulent & Medstifter</div>
                 <div class="team-description">
-                    Med over 8 års erfaring inden for Microsoft Dynamics 365 Business Central, specialiserer John sig i lagerstyring og lageroptimering. Han har succesfuldt implementeret BC løsninger for over 50 produktions- og distributionsvirksomheder.
+                    Med over 30 års erfaring inden for Microsoft Dynamics NAV/Business Central, er Jan en anerkendt specialist inden for finans, lagerstyring og produktionsoptimering. Han har implementeret BC løsninger globalt for internationale virksomheder og er ekspert i finansiel rapportering, omkostningsstyring og systemarkitektur.
                 </div>
                 <div class="team-skills">
+                    <span class="skill-tag">Finansiel rapportering</span>
+                    <span class="skill-tag">Omkostningsstyring</span>
+                    <span class="skill-tag">Systemarkitektur</span>
+                    <span class="skill-tag">Projektledelse</span>
                     <span class="skill-tag">Lagerstyring</span>
-                    <span class="skill-tag">Lagerkontrol</span>
-                    <span class="skill-tag">DocReader Integration</span>
-                    <span class="skill-tag">Power BI</span>
                 </div>
                 <div class="team-certifications">
-                    <h4>Certificeringer</h4>
+                    <h4>Erfaring & Baggrund</h4>
                     <ul>
-                        <li>Microsoft Certified: Dynamics 365 Business Central Functional Consultant</li>
-                        <li>Microsoft Certified: Power Platform Fundamentals</li>
-                        <li>Zapodio DocReader Certified Partner</li>
+                        <li>30+ års erfaring med Microsoft Dynamics NAV/Business Central</li>
+                        <li>Tidligere auditør med dyb forståelse for finansielle områder</li>
+                        <li>Medstifter af Matriks IT A/S og nuværende Fich & Kretzmann ApS</li>
+                        <li>Implementeret BC løsninger i 20+ virksomheder globalt</li>
+                        <li>Specialist i problemløsning og avancerede BC-projekter</li>
                     </ul>
                 </div>
             </div>
@@ -758,47 +792,95 @@
             <div class="team-member fade-in">
                 <div class="team-photo">
                     <!-- Erstat med rigtig foto: <img src="konsulent2.jpg" alt="Produktions Specialist"> -->
-                    👩‍💼
+                    👨‍💼
                 </div>
-                <h3 class="team-name">Sarah Martinez</h3>
-                <div class="team-title">Produktions- & Fremstillingsspecialist</div>
+                <h3 class="team-name">Peter Kretzmann</h3>
+                <div class="team-title">Senior Business Central PM & Developer, Medstifter</div>
                 <div class="team-description">
-                    Sarah bringer 6 års ekspertise inden for Business Central produktionsplanlægning og shopfloor management. Hendes baggrund i produktionsoperationer kombineret med BC tekniske færdigheder gør hende uvurderlig til produktionsoptimeringsprojekter.
+                    Peter er en erfaren Business Central udvikler og projektleder med Cand. Scient. oecon baggrund. Han specialiserer sig i komplekse integrationsprojekter for internationale kunder og har ledet upgrades og migrationer fra ældre ERP-systemer til Business Central Cloud. Peter er også skaberen af DocReader fra <a href="https://www.zapodio.com" target="_blank" style="color: #2a5f6f; text-decoration: underline;">Zapodio</a>.
                 </div>
                 <div class="team-skills">
-                    <span class="skill-tag">Produktionsplanlægning</span>
-                    <span class="skill-tag">Fremstilling</span>
-                    <span class="skill-tag">Kapacitetsplanlægning</span>
-                    <span class="skill-tag">Kvalitetskontrol</span>
+                    <span class="skill-tag">BC Development</span>
+                    <span class="skill-tag">Systemintegrationer</span>
+                    <span class="skill-tag">Projektledelse</span>
+                    <span class="skill-tag">Migrationer</span>
+                    <span class="skill-tag">DocReader AI</span>
                 </div>
                 <div class="team-certifications">
-                    <h4>Certificeringer</h4>
+                    <h4>Erfaring & Specialer</h4>
                     <ul>
-                        <li>Microsoft Certified: Dynamics 365 Business Central Developer</li>
-                        <li>Lean Six Sigma Green Belt</li>
-                        <li>Advanced Manufacturing Management Certificate</li>
+                        <li>25+ års erfaring med Business Central udvikling og integrationer</li>
+                        <li>Specialist i opgraderinger af NAV til Business Central Cloud</li>
+                        <li>Ekspert i multi-site løsninger og internationale implementeringer</li>
+                        <li>Skaber af DocReader AI-løsning til automatisk fakturabehandling</li>
+                        <li>Tidligere partner i ProFacto ApS og udviklingschef</li>
                     </ul>
                 </div>
             </div>
         </div>
         
-        <!-- Skabelon til at tilføje flere teammedlemmer -->
-        <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.02); border-radius: 15px; border: 1px dashed rgba(255,255,255,0.2);">
-            <p style="color: rgba(255,255,255,0.6); text-align: center; font-style: italic;">
-                💡 For at tilføje flere teammedlemmer, kopier team-member div ovenfor og opdater foto, navn, titel, beskrivelse, færdigheder og certificeringer.
-            </p>
-        </div>
-    </section>
-
-    <section id="om">
-        <div class="about">
-            <div class="about-text fade-in">
-                <h2>Om Fich & Kretzmann</h2>
-                <p>Vi er Microsoft Dynamics 365 Business Central specialister med dyb ekspertise inden for lagerstyring og produktionsoptimering. Vores team forstår de unikke udfordringer for produktions- og distributionsvirksomheder.</p>
-                <p>Som certificerede Business Central partnere og DocReader specialister leverer vi omfattende løsninger, der strømliner dine operationer, forbedrer lagerpræcision og øger produktionseffektivitet. Fra implementering til løbende support er vi din betroede ERP partner.</p>
-                <a href="#kontakt" class="cta-button">Diskuter Dit Projekt</a>
+        <!-- Partner Team Member -->
+        <div style="margin-top: 3rem;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h3 style="color: #2a5f6f; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Samarbejdspartner</h3>
+                <p style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem;">Vi arbejder tæt sammen med dygtige partnere for at levere komplette løsninger</p>
             </div>
-            <div class="about-image fade-in"></div>
+        </div>         
+        <div class="team-grid">
+            <!-- <div class="team-member fade-in" style="max-width: 400px; margin: 0 auto;"> -->
+            <div class="team-member fade-in">
+                <div class="team-photo">
+                    <!-- Partner logo eller foto -->
+                    🏢
+                </div>
+                <h3 class="team-name">Morten Overgaard</h3>
+                <div class="team-title">Partner - Build Succeeded</div>
+                <div class="team-description">
+                    Morten er grundlægger af <a href="https://buildsucceeded.dk" target="_blank" style="color: #2a5f6f; text-decoration: underline;">Build Succeeded</a> og skaber af DocReader fra <a href="https://www.zapodio.com" target="_blank" style="color: #2a5f6f; text-decoration: underline;">Zapodio</a>. Han bringer omfattende erfaring inden for systemarkitektur og applikationsudvikling som vores tekniske samarbejdspartner.
+                </div>
+                <div class="team-skills">
+                    <span class="skill-tag">Systemarkitektur</span>
+                    <span class="skill-tag">Applikationsudvikling</span>
+                    <span class="skill-tag">.NET Development</span>
+                    <span class="skill-tag">Teknisk rådgivning</span>
+                </div>
+                <div class="team-certifications">
+                    <h4>Baggrund</h4>
+                    <ul>
+                        <li>Grundlægger og ejer af Build Succeeded</li>
+                        <li>Uddannet fra Aarhus Universitet</li>
+                        <li>Specialist i Line of Business applikationer</li>
+                        <li>Erfaring med Oracle database og .NET systemer</li>
+                    </ul>
+                </div>                
+            </div>
+        
+        <!-- <div class="team-member fade-in" style="max-width: 400px; margin: 0 auto;"> -->
+        <div class="team-member fade-in">
+            <div class="team-photo">
+                <!-- Partner logo -->
+                📊
+            </div>
+            <h3 class="team-name">Matriks</h3>
+            <div class="team-title">Partner - Dokumentautomatisering</div>
+            <div class="team-description">
+                <a href="https://matriks.com" target="_blank" style="color: #2a5f6f; text-decoration: underline;">Matriks</a> er en etableret Microsoft Dynamics partner siden 1998, der specialiserer sig i dokumentautomatisering. Deres verdenskendte tilføjelser Matriks Doc og Matriks Automate integrerer perfekt med vores Business Central løsninger.
+            </div>
+            <div class="team-skills">
+                <span class="skill-tag">Matriks Doc</span>
+                <span class="skill-tag">Dokumentautomatisering</span>
+                <span class="skill-tag">BC Integration</span>
+                <span class="skill-tag">Scannerløsninger</span>
+            </div>
+            <div class="team-certifications">
+                <h4>Specialer</h4>
+                <ul>
+                    <li>Grundlagt 1998 - over 25 års erfaring</li>
+                    <li>Verdenskendte Matriks Doc og Matriks Automate</li>
+                    <li>Microsoft Dynamics 365 Business Central partner</li>
+                    <li>Dokumenthåndtering og scanning specialister</li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -813,12 +895,8 @@
             </div>
             <div class="contact-item">
                 <strong>Telefon</strong>
-                +45 XX XX XX XX
-            </div>
-            <div class="contact-item">
-                <strong>Specialer</strong>
-                Lager & Produktion
-            </div>
+                +45 61 27 16 16
+            </div>         
         </div>
     </section>
 
